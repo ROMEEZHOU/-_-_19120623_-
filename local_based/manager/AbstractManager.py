@@ -3,7 +3,7 @@
 class AbstractManager():
 
     def __init__(self):
-        None
+        pass
     
     @abstractmethod
     def run(self):
