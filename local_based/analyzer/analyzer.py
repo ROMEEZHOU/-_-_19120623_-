@@ -22,3 +22,10 @@ def get_new_url(key):
         l_c_process=Process(target=l_c.add_link)
         l_c_process.start()
         l_c_process.join()
+
+def get_content(key):
+    '''
+    get content from the pagetext leaded by the key,
+    and store the content into database
+    '''
+    return
